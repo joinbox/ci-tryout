@@ -1,0 +1,9 @@
+version: 1
+jobs:
+   build:
+     docker:
+       - image: circleci/node:7
+       - image: circleci/mongo:3.2.16
+     steps:
+       - checkout
+       - run: echo "hello world"
