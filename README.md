@@ -3,15 +3,6 @@ Tryout for testing strategies, ci-integration and project skeleton proposal.
 
 ## CI Services
 
-_evaluated in a first run_
-
-  - https://buddy.works/
-  - https://circleci.com/
-  - https://about.gitlab.com/
-  - https://codeship.com/
-  - https://semaphoreci.com/
-  - https://www.atlassian.com/software/bamboo
-
 ### Possible Criteria
 
   - Docker Support
@@ -24,6 +15,23 @@ _evaluated in a first run_
   - _Nice to have:_ Greenkeeper integration
   - _Nice to have:_ Rancher integration
   - _Nice to have:_ Tool support for frontend testing
+
+  - https://buddy.works/
+  - https://about.gitlab.com/
+  - https://codeship.com/
+  - https://semaphoreci.com/
+  - https://www.atlassian.com/software/bamboo
+  
+### [Circle CI](https://circleci.com/)
+
+  - Pricing:
+    - 1 concurrent build
+    - includes 1500 build minutes per month
+    - a build, depending on the images can take several minutes, blocking other users/branches?
+    - 2 containers with unlimited minutes per month costs 50$ (guess this is the minimum requirement)
+  - Contains several pre build docker images
+  - Has a neat dashboard
+  - Claims to have github integration (not able to test yet)
 
 ## Setup
 
