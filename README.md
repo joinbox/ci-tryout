@@ -97,6 +97,7 @@ Tryout for testing strategies, ci-integration and project skeleton proposal.
      - `protractor` e2e tests using selenium *cough* (might be useful to identify timing issues or similar) 
      - `cypress` looks nice and claims to be working with the most commont CI services https://www.cypress.io/ https://hub.docker.com/r/cypress/base/
      - `angular-mock` mock services integrated with angular
+     - `sinon` spying and mocking http://sinonjs.org/
      - `bower` dependency management
      - `gulp`? `yeoman`? `webpack`?
    - in general, angular-testing tutorials propose to group angular stuff by functionality or by type (i.e. directives, components, services, filters) and directly add the tests within a corresponding spec file, I prefer having functionally grouped angular code and tests stored in a separate folder.

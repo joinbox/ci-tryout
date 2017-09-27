@@ -1,0 +1,21 @@
+{
+  "name": "ci-tryout",
+  "description": "Tryouts for Joinbox Tooling",
+  "main": "index.js",
+  "authors": [
+    "Michael Rüfenacht"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/joinbox/ci-tryout",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.6",
+    "angular-mocks": "^1.6.6"
+  }
+}
