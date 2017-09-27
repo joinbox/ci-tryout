@@ -1,0 +1,28 @@
+{
+  "name": "ci-tryout",
+  "version": "1.0.0",
+  "description": "Tryouts for Joinbox Tooling",
+  "main": "index.js",
+  "scripts": {
+    "test:mocha": "mocha --check-leaks --full-trace --recursive ./test/setup.js",
+    "test:integration": "npm run test:mocha -- ./test/integration/",
+    "test:unit": "npm run test:mocha -- ./test/unit/",
+    "test": "npm run test:mocha -- ./test/unit/ ./test/integration/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joinbox/ci-tryout.git"
+  },
+  "author": "Michael Rüfenacht",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joinbox/ci-tryout/issues"
+  },
+  "homepage": "https://github.com/joinbox/ci-tryout#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "karma": "^1.7.1",
+    "mocha": "^3.5.3"
+  }
+}
